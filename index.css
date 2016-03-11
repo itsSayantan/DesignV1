@@ -1,0 +1,105 @@
+body{
+	padding: 0;
+	margin: 0;
+	line-height: 1.2;
+	background: #FFFFFF;
+	font-family: Helvetica, sans-serif;
+}
+
+a{
+	color: #FFFFFF;
+}
+
+.left_sec{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background: #00CED1;
+	color: #FFFFFF;
+	font-size: 24px;
+	text-align: center;
+}
+
+.right_sec{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+}
+
+.login_wrapper{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -150px;
+	width: 300px;
+	height: 200px;
+	background: #00CED1;
+	box-shadow: 2px 2px 1px 1px #888999;
+}
+
+.login_form{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 260px;
+	height: 160px;
+}
+
+.uname{
+	position: absolute;
+	width: 100%;
+	height: 26px;
+}
+
+.pass{
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	height: 26px;
+}
+
+.login_submit{
+	cursor: pointer;
+	border: 0;
+	position: absolute;
+	right: 0;
+	top: 80px;
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	background: #FFFFFF;
+	color: #00CED1;
+}
+
+.create_button{
+	cursor: pointer;
+	border: 0;
+	position: absolute;
+	top: 120px;
+	left: 50%;
+	margin-left: -35px;
+	width: 70px;
+	height: 30px;
+	border-radius: 5px;
+	background: #FFFFFF;
+	color: #00CED1;
+}
+
+.feedback_login{
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	margin-left: -150px;
+	width: 300px;
+	background: #00CED1;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
